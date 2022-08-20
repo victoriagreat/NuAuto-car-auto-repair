@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 40%;
+    margin-left: 120px;
+}
+
+.nav-bar{
+    width: 60%;
+    margin-right: 90px;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar ul li{
+    list-style: none;
+}
+
+.nav-bar ul li a {
+   text-decoration: none;
+   color: black; 
+}
+
+.nav-bar ul li a:hover{
+    color: red;
+}
+
+.box1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items:center;
+}
+
+.auto-car{
+    width: 40%;
+    margin-left: 120px;
+}
+
+.h1{
+    font-size: 50px;
+}
+
+.mechanics{
+    width: 60%;
+    margin-left: 60px;
+}
+
+.box2{
+    margin-top: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-left: 40px;
+}
+
+.small-box1{
+    width: 20%;
+    height: 300px;
+    box-shadow: 1px 10px 50px 0px grey;
+    border-radius: 15px;
+}
+
+.small-box2{
+    width: 20%;
+    height: 300px;
+    box-shadow: 1px 10px 50px 0px grey;
+    border-radius: 15px;
+}
+
+.small-box3{
+    width: 20%;
+    height: 300px;
+    box-shadow: 1px 10px 50px 0px grey;
+    border-radius: 15px;
+}
+
+.small-box4{
+    width: 20%;
+    height: 300px;
+    box-shadow: 1px 10px 50px 0px grey;
+    border-radius: 15px;
+}
+
+.box2 img{
+    width: 40px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.box2 h2{
+   margin-top: 30px; 
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.box2 h3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box3{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.work{
+    width: 40%;
+    margin-left: 130px;
+}
+
+.preventive{
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 30px;
+    padding-left: 40px;
+}
+
+.box4{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+}
+
+.services{
+    width: 40%;
+    padding-left: 120px;
+    margin-top: 30px;
+}
+
+.car{
+    width: 50%;
+}
+
+.box5{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.hanging-car{
+    width: 40%;
+    padding-left: 60px;
+}
+
+.pm-lube{
+    width: 60%;
+    padding-right: 50px;
+    padding-left: 80px;
+}
+
+.box6{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.book{
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.last-car{
+    width: 60%;
+}
+
+.box7{
+    width: 100%;
+    height: 150px;
+    background: rgb(31, 31, 110);
+}
+
+.appointment {
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 15px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: blue;
+    padding-top: 30px;
+}
+
+.footer1{
+    width: 20%;
+    height: 300px;
+}
+
+.footer2{
+    width: 20%;
+    height: 300px;
+}
+
+.footer3{
+    width: 20%;
+    height: 300px;
+}
+
+.footer4{
+    width: 20%;
+    height: 300px;
+}
+
+.footer4 input{
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+.footer4 button{
+    padding: 5px;
+    background: red;
+    width: 150px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.last{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: blue;
+    color: white;
+}
+
+.copyright{
+    width: 60%;
+    height: 100%;
+    padding-left: 300px;
+}
+
+.privacy{
+    width: 40%;
+    height: 100%;
+    padding-left: 200px;
+}
